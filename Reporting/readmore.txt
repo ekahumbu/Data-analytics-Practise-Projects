@@ -1,0 +1,18 @@
+New Python Library in your toolbox: Pyinstaller
+PyInstaller bundles a Python application and all its dependencies into a single package. The user can run the packaged app without installing a Python interpreter or any modules.
+
+Step 1: Install Pyinstaller
+pip install pyinstaller
+Step 2: Save your python script in the current directory
+Save it in the same directory where you have put your sales records initial file (sales_data.csv). Name your file: “pivot.py”
+
+Step 3: Create your executable file using Pyinstaller
+Enter the following command in your command prompt
+
+pyinstaller --onefile hello.py
+When the process is completed you will see this message “Building EXE from EXE-00.toc completed successfully.” and your (.exe) fill will pop in a folder called “Build”.
+
+Step 4: Use your executable file
+Ask your colleagues to Cut and paste this (.exe) file in a folder with the initial raw data and click to start the script. They can follow the process thanks to the print messages put at each step of the script.
+
+Result: At the end of the process, they can find your sales report (sales_report.xlsx) saved in your folder.
